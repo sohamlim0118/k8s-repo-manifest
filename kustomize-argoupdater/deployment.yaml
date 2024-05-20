@@ -13,7 +13,7 @@ spec:
         app: sample
     spec:
       containers:
-      - image: docker.io/dbgurum/argoupdater:nginx19a
+      - image: docker.io/dbgurum/argoupdater:nginx21a
         name: sample
         ports:
         - containerPort: 80
