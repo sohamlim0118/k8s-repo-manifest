@@ -16,4 +16,4 @@ spec:
       - image: docker.io/dbgurum/argoupdater:nginx19a
         name: sample
         ports:
-        - containerPort: 5000
+        - containerPort: 80
