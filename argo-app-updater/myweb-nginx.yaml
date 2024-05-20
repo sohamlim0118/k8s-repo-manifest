@@ -13,7 +13,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: nginx:1.19
+      - image: dbgurum/argoupdater:nginx19a
         name: myweb
         ports:
         - containerPort: 80
