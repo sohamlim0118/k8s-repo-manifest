@@ -17,3 +17,10 @@ spec:
         name: sample
         ports:
         - containerPort: 80
+        resources:
+          requests:
+            cpu: 200m
+            memory: 200Mi
+          limits:
+            cpu: 200m
+            memory: 200Mi
