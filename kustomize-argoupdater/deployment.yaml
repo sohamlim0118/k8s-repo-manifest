@@ -6,15 +6,15 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: sample
+      app: nginx
   template:
     metadata:
       labels:
-        app: sample
+        app: nginx
     spec:
       containers:
       - image: docker.io/dbgurum/argoupdater:nginx21a
-        name: sample
+        name: nginx
         ports:
         - containerPort: 80
         resources:
