@@ -8,3 +8,4 @@ kind: Kustomization
 images:
 - name: docker.io/dbgurum/argoupdater
 #  newTag: latest
+  newPullPolicy: Always
